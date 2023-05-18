@@ -1,8 +1,9 @@
 # Create a function called main.
 # Create function arguments a.
 # Assign the value pi to the variable "a" and return.
-from math import pi
-def main(a):
+
+def main (a):
+    from math import pi
     a = pi
     return a
 print(main(6))
